@@ -18,11 +18,11 @@ Ciplerly is a fun and secure messaging tool that allows you to convert your text
 
 ## Getting Started
 
-You can try out Ciplerly by visiting https://remarkable-melba-59816d.netlify.app/
+You can try out Ciplerly by visiting: `https://remarkable-melba-59816d.netlify.app/`
 
 If you want to run this project locally, follow these steps:
 
-1. Clone the repository: https://github.com/Shoyab1707/Cipherly-TextToEmoji.git
+1. Clone the repository:`https://github.com/Shoyab1707/Cipherly-TextToEmoji.git`
 2. Open `index.html` in your web browser.
 
 ## Technologies Used
@@ -30,10 +30,6 @@ If you want to run this project locally, follow these steps:
 - HTML
 - CSS
 - JavaScript
-
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to Ciplerly, please follow our [contributing guidelines](CONTRIBUTING.md).
 
 ## License
 
