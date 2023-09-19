@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TextToEmoji</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Text <span> <i class="fa-solid fa-arrow-right fa-xs"></i> </span> Emoji</h1>
+        <div id="endec-div">
+            <h3 id="enc-btn"><span><i class="fa-solid fa-lock"></i></span> Encrypt Text</h3>
+            <h3 id="dec-btn"><span><i class="fa-solid fa-lock-open"></i></span> Decrypt Emojis</h3> 
+        </div>
+        
+         <!-- Encryption -->
+        <div id="encryption">
+            <h5>1. Type a Message</h5>
+            <textarea placeholder="Enter Text" id="textmsg" cols="30" rows="1"></textarea>
+            <h5>2. Set a Password</h5>
+            <input type="password" id="password" placeholder="E.g. 1234">
+            <h5>3. Encrypt message</h5>
+            <button id="encrypt-btn"><span><i class="fa-solid fa-lock"></i></span> Encrypt Text</button>
+        </div>
+
+         <!-- Decryption -->
+         <div id="decryption">
+            <h5>1. Paste encrypted message</h5>
+            <textarea placeholder="Paste encrypted emojies here" name="" id="emojimsg" cols="10" rows="1"></textarea>
+            <h5>2. Type a password</h5>
+            <input placeholder="E.g. 1234" type="password" name="" id="finalpassword">
+            <h5>3. Decrypt Emojis</h5>
+            <button id="decrypt-btn"><span><i class="fa-solid fa-lock-open"></i></span> Decrypt Text</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <footer>
+        Made with ❤️ by <a target="_blank" href="https://github.com/Shoyab1707">Shoyab</a>
+    </footer>
+    
+    <script src="script2.js"></script>
+    <script src="https://kit.fontawesome.com/0bbe51d68f.js" crossorigin="anonymous"></script>
+</body>
+</html>
