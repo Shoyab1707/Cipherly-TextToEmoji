@@ -18,7 +18,7 @@ Ciplerly is a fun and secure messaging tool that allows you to convert your text
 
 ## Getting Started
 
-You can try out Ciplerly by visiting: `https://remarkable-melba-59816d.netlify.app/`
+You can try out Ciplerly by visiting: [click here](https://remarkable-melba-59816d.netlify.app/)
 
 If you want to run this project locally, follow these steps:
 
